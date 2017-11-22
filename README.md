@@ -1,5 +1,5 @@
 # phpAuth
-Custom PHP login using PDO & Bootstrap UI
+Custom PHP Login using PDO with md5 encryption & Bootstrap UI
 
 # Version
 
