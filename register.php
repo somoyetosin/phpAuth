@@ -53,8 +53,7 @@
         <div class="card card-body bg-light mt-5">
           <h4>Registration</h4>
           <p>Fill in your details</p>
-          <span class="invalid-feedback"><?php echo $new; ?></span>
-          <form action="server/register.php" method="POST">
+          <form action="server/register.php" method="POST" onsubmit="return validateLogin();">
               <div class="form-group">
                   <label>Name:<sup>*</sup></label>
                   <input type="text" name="fullName" class="form-control" id="fullName" autofocus="">

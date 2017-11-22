@@ -33,7 +33,7 @@
         <div class="card card-body bg-light mt-5">
         <h4>Login</h4>
         <p>Sign in to start your session</p>
-        <form action="server/login.php" method="POST">
+        <form action="server/login.php" method="POST" onsubmit="return validateLogin();">
             <div class="form-group">
                 <label>Email:<sup>*</sup></label>
                 <input type="email" name="email" class="form-control" id="email" autofocus="">
