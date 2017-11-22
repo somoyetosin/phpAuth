@@ -8,7 +8,7 @@ Version
 Usage
 
 Create database with users table or import the phplogin.sql file
-Add DB config params to server/config.php
+Add database config params to server/config.php
 Open index.php and register a user
 App Info
 
